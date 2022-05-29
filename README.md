@@ -1,13 +1,8 @@
 # **Assignment 0: Markdown**
-
 ## **You have to write markdown**
-
 ### **Some Math Equation**
-
 $$ First\ equation:\ Y=X\beta+\epsilon_{y},\ \forall X $$
-
 $$ Second\ equation:\ X=Z\gamma+\epsilon_{x} $$
-
 $$ f_{1}(\omega)=\frac{\sigma^2}{2\pi},\ \omega\in[-\pi,\pi] $$
 
 1. First item
@@ -18,7 +13,6 @@ $$ f_{1}(\omega)=\frac{\sigma^2}{2\pi},\ \omega\in[-\pi,\pi] $$
 3. Third item
     a. second sub item
 4. Fourth Item
-
 - First Item
 - Second Item
   - first sub-item
@@ -32,7 +26,6 @@ library(tidyverse)
 library(mdsr)
 SAT_2010 %>% ggplot(aes(write,..density..)) + geom_histogram() +
 geom_density() + theme_minimal() + labs(title= "SAT Writing Scores")
-
 ```
 
 # **Table with alignment**
